@@ -2,14 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cbags</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
+<div class="container-fluid">
+    <h2 class="text-center">CBags</h2>
 <input type="text" id="circleWidth" placeholder="Enter Circle Width">
-<button id="figureLengthBtn" onclick="lengthFromDiameter()">Figure Length</button>
+<button id="figureLengthBtn" class="btn btn-primary" onclick="lengthFromDiameter()">Figure Length</button>
 <input type="text" id="bodyLength" placeholder="Enter Body Length">
-<button id="figureCircleWidthBtn" onclick="diameterFromLength()">Figure Circle Width</button>
+<button id="figureCircleWidthBtn" class="btn btn-primary"  onclick="diameterFromLength()">Figure Circle Width</button>
 <div id="dispArea"></div>
+//connect javascript
 <script src="cbags.js"></script>
+</div>
 </body>
 </html>
